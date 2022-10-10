@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(315deg, #71a8a8 0%, #e595ea 75%);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 600px;
+}
